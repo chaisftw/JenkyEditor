@@ -52,8 +52,8 @@ namespace JenkyEditor
             NewEdit = NewEditState;
 
             //Setting game screen dimensions
-            graphics.PreferredBackBufferWidth = 1880; //1920;
-            graphics.PreferredBackBufferHeight = 1000; //1080;
+            graphics.PreferredBackBufferWidth = 1920;
+            graphics.PreferredBackBufferHeight = 1080;
             graphics.IsFullScreen = false;
 
             graphics.ApplyChanges();

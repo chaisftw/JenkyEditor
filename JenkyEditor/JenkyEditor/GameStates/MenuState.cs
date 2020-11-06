@@ -94,6 +94,7 @@ namespace JenkyEditor
             if (newDialog.Active)
             {
                 newDialog.Draw(spriteBatch);
+                newDialog.DrawTooltip(spriteBatch);
             }
             else
             {
